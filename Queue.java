@@ -19,7 +19,7 @@ It is used when data is transferred asynchronously
 	    static Scanner sc=new Scanner(System.in);
 	    public Queue()
 	    {
-	    System.out.println("Enter size of queue");
+	    System.out.println("Enter size of queue ");
 	    size =sc.nextInt();
 	    int front = -1;
 	    rear=-1;
@@ -31,13 +31,13 @@ It is used when data is transferred asynchronously
 	    static void enqueue(int item) 
 	    { 
 	        if (rear==size-1) 
-	           System.out.println("No more element can be added to queue");
+	           System.out.println("No more element can be added to queue ");
 	        	else
 	        	{
 	        		rear=rear+1;
 	        	arr[rear]=item;
 	        	
-	        	System.out.println(item+" has been added successfully");
+	        	System.out.println(item+" has been added successfully ");
 	    } 
 	    }
 	  
