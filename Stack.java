@@ -20,7 +20,7 @@ public class Stack {
 	{
 		   top=-1;
 		 
-		 System.out.println("Enter size of the stack");
+		 System.out.println(" Enter size of the stack ");
 		   n=sc.nextInt();
 		   a= new int[n];
 	}
@@ -42,9 +42,9 @@ public class Stack {
 	case 1:
 		boolean b=ob.isEmpty();
 		if(b==true)
-			System.out.println("array is empty ");
+			System.out.println(" array is empty ");
 		else 
-			System.out.println("array is not empty ");	
+			System.out.println(" array is not empty ");	
 			
 		break;
 	
@@ -69,7 +69,7 @@ public class Stack {
 		display();
 		break;
 	default:
-		System.out.println("Invalid input ");
+		System.out.println(" Invalid input ");
 	}
 	}
 	while(true);
@@ -87,7 +87,7 @@ public class Stack {
 	    public static void push(int x) 
 	    { 
 	        if (top >= (n - 1)) { 
-	            System.out.println("Stack Overflow"); 
+	            System.out.println(" Stack Overflow "); 
 	             
 	        } 
 	        else { 
@@ -100,7 +100,7 @@ public class Stack {
 	    public int pop() 
 	    { if (top < 0) 
 	    	{ 
-            System.out.println("Stack Underflow"); 
+            System.out.println(" Stack Underflow "); 
             return 0; 
 	    	} 
         else { 
@@ -114,7 +114,7 @@ public class Stack {
 	    public int peek() 
 	    { 
         if (top < 0) { 
-            System.out.println("Stack Underflow"); 
+            System.out.println(" Stack Underflow "); 
             return 0; 
         } 
         else 
